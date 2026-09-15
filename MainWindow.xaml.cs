@@ -8,11 +8,6 @@ public partial class MainWindow : Window
 {
     public MainWindow() => InitializeComponent();
 
-    private void CompareBaseline_Click(object sender, RoutedEventArgs e)
-    {
-        ShowFeedback("Baseline comparison requested — this is where CI would submit the current state to visual validation.", "#E8F4F8", "#005B75");
-    }
-
     private void ActionButton_Click(object sender, RoutedEventArgs e)
     {
         var button = (Button)sender;
